@@ -401,79 +401,128 @@ html:has(.perfil-modal[open]){overflow:hidden}
   <div class="cont">
     <div class="encabezado">
       <h2 id="t-propuestas">Lo que vamos a hacer en 2027 y 2028</h2>
-      <p>Cinco compromisos concretos. Elige uno para ver cómo funcionaría.</p>
+      <p>Nueve compromisos concretos. Elige uno para ver cómo funcionaría.</p>
     </div>
     <div class="propuestas">
-      <div class="pestanas" role="tablist" aria-label="Propuestas" aria-orientation="vertical">
-        <button class="pestana" role="tab" id="tab-1" aria-controls="panel-1" aria-selected="true">Portal del Asociado</button>
-        <button class="pestana" role="tab" id="tab-2" aria-controls="panel-2" aria-selected="false" tabindex="-1">Carnet en 24 horas</button>
-        <button class="pestana" role="tab" id="tab-3" aria-controls="panel-3" aria-selected="false" tabindex="-1">Padrón único y auditable</button>
-        <button class="pestana" role="tab" id="tab-4" aria-controls="panel-4" aria-selected="false" tabindex="-1">Registro digital de ingreso</button>
-        <button class="pestana" role="tab" id="tab-5" aria-controls="panel-5" aria-selected="false" tabindex="-1">Comité de Damas</button>
+        <div class="pestanas" role="tablist" aria-label="Propuestas" aria-orientation="vertical">
+          <button class="pestana" role="tab" id="tab-1" aria-controls="panel-1" aria-selected="true">Portal del Asociado</button>
+          <button class="pestana" role="tab" id="tab-2" aria-controls="panel-2" aria-selected="false" tabindex="-1">Registro digital de ingreso</button>
+          <button class="pestana" role="tab" id="tab-3" aria-controls="panel-3" aria-selected="false" tabindex="-1">Carnet en 24 horas</button>
+          <button class="pestana" role="tab" id="tab-4" aria-controls="panel-4" aria-selected="false" tabindex="-1">Padrón único y auditable</button>
+          <button class="pestana" role="tab" id="tab-5" aria-controls="panel-5" aria-selected="false" tabindex="-1">Asambleas mixtas</button>
+          <button class="pestana" role="tab" id="tab-6" aria-controls="panel-6" aria-selected="false" tabindex="-1">Historia en las aulas</button>
+          <button class="pestana" role="tab" id="tab-7" aria-controls="panel-7" aria-selected="false" tabindex="-1">Reconocimientos</button>
+          <button class="pestana" role="tab" id="tab-8" aria-controls="panel-8" aria-selected="false" tabindex="-1">Comité de Damas</button>
+          <button class="pestana" role="tab" id="tab-9" aria-controls="panel-9" aria-selected="false" tabindex="-1">Reencuentro de promociones</button>
+        </div>
+        <div>
+          <article class="panel" role="tabpanel" id="panel-1" aria-labelledby="tab-1" tabindex="0">
+            <p class="eje">Modernización institucional</p>
+            <h3>Portal del Asociado</h3>
+            <p class="bajada">Trámites, pagos y consultas en una sola plataforma, con acceso personal y registro de cada operación.</p>
+            <ul class="puntos">
+              <li><strong>Inscripción en línea</strong><span>Presentas tu solicitud y sigues su aprobación.</span></li>
+              <li><strong>Tu estado de asociado</strong><span>Datos, cuotas y habilitación.</span></li>
+              <li><strong>Pago de cuotas</strong><span>Pagos en línea con historial.</span></li>
+              <li><strong>Mesa de partes digital</strong><span>Envías documentos y ves su avance.</span></li>
+              <li><strong>Calendario de ambientes</strong><span>Qué espacios están libres, alquilados u ocupados.</span></li>
+              <li><strong>Reservas</strong><span>Condiciones y seguimiento de tu solicitud.</span></li>
+            </ul>
+            <p class="cierre">Tu Asociación, a un clic.</p>
+          </article>
+          <article class="panel" role="tabpanel" id="panel-2" aria-labelledby="tab-2" tabindex="0" hidden>
+            <p class="eje">Modernización institucional</p>
+            <h3>Registro digital de ingreso</h3>
+            <p class="bajada">Reemplazamos el cuaderno de la entrada por un control de ingreso y salida en tiempo real.</p>
+            <ul class="puntos">
+              <li><strong>Carnet o código QR</strong><span>Lectura física o desde el celular.</span></li>
+              <li><strong>Código personal</strong><span>Otra forma de identificarte.</span></li>
+              <li><strong>Huella o rostro</strong><span>Solo tras evaluarlo y respetando la protección de datos.</span></li>
+              <li><strong>Registro de presencia</strong><span>Fecha, hora y aforo del local.</span></li>
+            </ul>
+            <p class="cierre">Más seguridad, orden y mejor atención en recepción.</p>
+          </article>
+          <article class="panel" role="tabpanel" id="panel-3" aria-labelledby="tab-3" tabindex="0" hidden>
+            <p class="eje">Modernización institucional y beneficios</p>
+            <h3>Carnet en 24 horas</h3>
+            <p class="bajada">Hoy un asociado puede esperar de tres a seis meses por su carnet. Con los requisitos completos y validados, lo emitiremos en 24 horas.</p>
+            <ul class="puntos">
+              <li><strong>Recojo en la Asociación</strong><span>Atención ágil y entrega oportuna.</span></li>
+              <li><strong>Envío a domicilio</strong><span>Si no puedes acercarte, lo coordinamos según el destino.</span></li>
+            </ul>
+            <p class="cierre">Ser asociado merece un buen servicio.</p>
+          </article>
+          <article class="panel" role="tabpanel" id="panel-4" aria-labelledby="tab-4" tabindex="0" hidden>
+            <p class="eje">Transparencia y participación</p>
+            <h3>Padrón único y auditable</h3>
+            <p class="bajada">Dejamos el Excel. Cada inscripción tendrá sustento y cada cambio, autorización y constancia.</p>
+            <ul class="puntos">
+              <li><strong>Altas con sustento</strong><span>Aprobadas por dos responsables.</span></li>
+              <li><strong>Bajas sin borrar el historial</strong><span>Con motivo, documento y autorización.</span></li>
+              <li><strong>Fechas con trazabilidad</strong><span>Cada corrección conserva la fecha anterior.</span></li>
+              <li><strong>Cambios fiscalizados</strong><span>Quién cambió qué, cuándo y quién lo autorizó.</span></li>
+            </ul>
+            <p class="cierre">Nadie debe registrar, aprobar y borrar la evidencia de un cambio por sí solo.</p>
+          </article>
+          <article class="panel" role="tabpanel" id="panel-5" aria-labelledby="tab-5" tabindex="0" hidden>
+            <p class="eje">Transparencia y participación</p>
+            <h3>Asambleas con participación virtual</h3>
+            <p class="bajada">El debate se vive en el auditorio y la distancia no impide tu participación.</p>
+            <ul class="puntos">
+              <li><strong>Encuentro presencial</strong><span>Recuperamos el debate y la participación en el auditorio.</span></li>
+              <li><strong>Voz y voto a distancia</strong><span>Desde cualquier lugar del Perú y del mundo.</span></li>
+              <li><strong>Auditorio conectado</strong><span>Pantallas, altavoz, cámaras y micrófonos.</span></li>
+              <li><strong>Votación verificable</strong><span>Identidad validada, un voto por asociado habilitado y resultados auditables.</span></li>
+            </ul>
+            <p class="cierre">Presentes o a distancia, todos somos parte.</p>
+          </article>
+          <article class="panel" role="tabpanel" id="panel-6" aria-labelledby="tab-6" tabindex="0" hidden>
+            <p class="eje">Cultura y eventos</p>
+            <h3>Historia de Guadalupe en las aulas</h3>
+            <p class="bajada">Llevaremos nuestra historia a los hermanos menores del colegio.</p>
+            <ul class="puntos">
+              <li><strong>Charlas en el Colegio</strong><span>Encuentros con los estudiantes.</span></li>
+              <li><strong>Exposiciones históricas</strong><span>Fundación, tradiciones y legado de sus exalumnos.</span></li>
+              <li><strong>Testimonios de exalumnos</strong><span>La voz de quienes construyeron esta historia.</span></li>
+            </ul>
+            <p class="cierre">Nuestra historia, contada a las nuevas generaciones.</p>
+          </article>
+          <article class="panel" role="tabpanel" id="panel-7" aria-labelledby="tab-7" tabindex="0" hidden>
+            <p class="eje">Cultura y eventos</p>
+            <h3>Reconocimiento a los guadalupanos</h3>
+            <p class="bajada">Homenajes a quienes dedican su vida al servicio de los demás.</p>
+            <ul class="puntos">
+              <li><strong>Exalumnos destacados</strong><span>A quienes honran el nombre de Guadalupe.</span></li>
+              <li><strong>Colectivos profesionales</strong><span>Reconocimiento a su aporte a la comunidad.</span></li>
+              <li><strong>Reconocimientos por mérito</strong><span>Distinciones con criterios claros.</span></li>
+            </ul>
+            <p class="cierre">Fraternidad y distinciones por mérito.</p>
+          </article>
+          <article class="panel" role="tabpanel" id="panel-8" aria-labelledby="tab-8" tabindex="0" hidden>
+            <p class="eje">Participación, cultura y eventos</p>
+            <h3>Comité de Damas</h3>
+            <p class="bajada">Reactivaremos el comité para que las familias guadalupanas participen con voz propia.</p>
+            <ul class="puntos">
+              <li><strong>Convocatoria</strong><span>A esposas y familiares de los asociados.</span></li>
+              <li><strong>Elección interna</strong><span>De sus propias representantes.</span></li>
+              <li><strong>Apoyo</strong><span>A sus iniciativas de integración y solidaridad.</span></li>
+            </ul>
+            <p class="cierre">Conforme a las normas institucionales y respetando su autonomía.</p>
+          </article>
+          <article class="panel" role="tabpanel" id="panel-9" aria-labelledby="tab-9" tabindex="0" hidden>
+            <p class="eje">Integración guadalupana</p>
+            <h3>Reencuentro en la Casa Celeste</h3>
+            <p class="bajada">Todas las promociones, una misma casa.</p>
+            <ul class="puntos">
+              <li><strong>Encuentros entre promociones</strong><span>Volvemos a reunirnos en nuestro local.</span></li>
+              <li><strong>Ingreso sin cobro, con registro</strong><span>Acceso ordenado para los asociados.</span></li>
+              <li><strong>Más exalumnos activos</strong><span>Nuevas generaciones en la vida de la Asociación.</span></li>
+            </ul>
+            <p class="cierre">Aforo y normas de convivencia para todos.</p>
+          </article>
+        </div>
       </div>
-      <div>
-        <article class="panel" role="tabpanel" id="panel-1" aria-labelledby="tab-1" tabindex="0">
-          <p class="eje">Modernización institucional</p>
-          <h3>Portal del Asociado</h3>
-          <p class="bajada">Trámites, pagos y consultas en una sola plataforma, con acceso personal y registro de cada operación.</p>
-          <ul class="puntos">
-            <li><strong>Inscripción en línea</strong><span>Presentas tu solicitud y sigues su aprobación.</span></li>
-            <li><strong>Tu estado de asociado</strong><span>Datos, cuotas y habilitación.</span></li>
-            <li><strong>Pago de cuotas</strong><span>Pagos en línea con historial.</span></li>
-            <li><strong>Mesa de partes digital</strong><span>Envías documentos y ves su avance.</span></li>
-            <li><strong>Calendario de ambientes</strong><span>Qué espacios están libres, alquilados u ocupados.</span></li>
-            <li><strong>Reservas</strong><span>Condiciones y seguimiento de tu solicitud.</span></li>
-          </ul>
-          <p class="cierre">Tu Asociación, a un clic.</p>
-        </article>
-        <article class="panel" role="tabpanel" id="panel-2" aria-labelledby="tab-2" tabindex="0" hidden>
-          <p class="eje">Modernización institucional y beneficios</p>
-          <h3>Carnet en 24 horas</h3>
-          <p class="bajada">Hoy un asociado puede esperar de tres a seis meses por su carnet. Con los requisitos completos y validados, lo emitiremos en 24 horas.</p>
-          <ul class="puntos">
-            <li><strong>Recojo en la Asociación</strong><span>Atención ágil y entrega oportuna.</span></li>
-            <li><strong>Envío a domicilio</strong><span>Si no puedes acercarte, lo coordinamos según el destino.</span></li>
-          </ul>
-          <p class="cierre">Ser asociado merece un buen servicio.</p>
-        </article>
-        <article class="panel" role="tabpanel" id="panel-3" aria-labelledby="tab-3" tabindex="0" hidden>
-          <p class="eje">Transparencia y participación</p>
-          <h3>Padrón único y auditable</h3>
-          <p class="bajada">Dejamos el Excel. Cada inscripción tendrá sustento y cada cambio, autorización y constancia.</p>
-          <ul class="puntos">
-            <li><strong>Altas con sustento</strong><span>Aprobadas por dos responsables.</span></li>
-            <li><strong>Bajas sin borrar el historial</strong><span>Con motivo, documento y autorización.</span></li>
-            <li><strong>Fechas con trazabilidad</strong><span>Cada corrección conserva la fecha anterior.</span></li>
-            <li><strong>Cambios fiscalizados</strong><span>Quién cambió qué, cuándo y quién lo autorizó.</span></li>
-          </ul>
-          <p class="cierre">Nadie debe registrar, aprobar y borrar la evidencia de un cambio por sí solo.</p>
-        </article>
-        <article class="panel" role="tabpanel" id="panel-4" aria-labelledby="tab-4" tabindex="0" hidden>
-          <p class="eje">Modernización institucional</p>
-          <h3>Registro digital de ingreso</h3>
-          <p class="bajada">Reemplazamos el cuaderno de la entrada por un control de ingreso y salida en tiempo real.</p>
-          <ul class="puntos">
-            <li><strong>Carnet o código QR</strong><span>Lectura física o desde el celular.</span></li>
-            <li><strong>Código personal</strong><span>Otra forma de identificarte.</span></li>
-            <li><strong>Huella o rostro</strong><span>Solo tras evaluarlo y respetando la protección de datos.</span></li>
-            <li><strong>Registro de presencia</strong><span>Fecha, hora y aforo del local.</span></li>
-          </ul>
-          <p class="cierre">Más seguridad, orden y mejor atención en recepción.</p>
-        </article>
-        <article class="panel" role="tabpanel" id="panel-5" aria-labelledby="tab-5" tabindex="0" hidden>
-          <p class="eje">Participación, cultura y eventos</p>
-          <h3>Comité de Damas</h3>
-          <p class="bajada">Reactivaremos el comité para que las familias guadalupanas participen con voz propia.</p>
-          <ul class="puntos">
-            <li><strong>Convocatoria</strong><span>A esposas y familiares de los asociados.</span></li>
-            <li><strong>Elección interna</strong><span>De sus propias representantes.</span></li>
-            <li><strong>Apoyo</strong><span>A sus iniciativas de integración y solidaridad.</span></li>
-          </ul>
-          <p class="cierre">Conforme a las normas institucionales y respetando su autonomía.</p>
-        </article>
-      </div>
-    </div>
-    <div class="ejes" aria-label="Ejes de trabajo">
+      <div class="ejes" aria-label="Ejes de trabajo">
       <div><h3>Modernización institucional</h3><p>Local al servicio del asociado, web renovada y gestión digital.</p></div>
       <div><h3>Transparencia y participación</h3><p>Gestión ordenada, reforma del Estatuto y asambleas mixtas.</p></div>
       <div><h3>Crecimiento y beneficios</h3><p>Más ingresos para la Asociación y apoyo a sus asociados.</p></div>
